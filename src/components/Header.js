@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { faQuestionCircle } from "@fortawesome/free-regular-svg-icons";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const SHeader = styled.header`
   width: 100%;
@@ -96,7 +96,13 @@ export const Header = () => {
       <Wrapper>
         <Column>
           <Icon>
-            <Link to='/'>
+            <Link
+              activeClass='active'
+              to='section1'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
               <Logo className='ourlogo'>ATC</Logo>
             </Link>
           </Icon>
@@ -104,7 +110,15 @@ export const Header = () => {
         <Column>
           <IconsContainer>
             <Icon>
-              <h1>로드맵</h1>
+              <Link
+                activeClass='active'
+                to='section2'
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>
+                <h1>로드맵</h1>
+              </Link>
             </Icon>
             <Icon>
               <h1>작품들</h1>

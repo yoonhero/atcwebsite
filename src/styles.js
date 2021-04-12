@@ -29,7 +29,7 @@ export const GlobalStyles = createGlobalStyle`
   body{
     background-color: white;
     font-size: 14px;   
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     color: ${(props) => props.theme.fontColor};
   }
   a{
