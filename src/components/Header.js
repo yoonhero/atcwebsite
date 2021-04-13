@@ -121,10 +121,26 @@ export const Header = () => {
               </Link>
             </Icon>
             <Icon>
-              <h1>작품들</h1>
+              <Link
+                activeClass='active'
+                to='section3'
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>
+                <h1>작품들</h1>
+              </Link>
             </Icon>
             <Icon>
-              <h1>저희들</h1>
+              <Link
+                activeClass='active'
+                to='section4'
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>
+                <h1>저희들</h1>
+              </Link>
             </Icon>
           </IconsContainer>
         </Column>
