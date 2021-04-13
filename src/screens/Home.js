@@ -383,6 +383,15 @@ export default function Home() {
                 꿈을 꾸는 건 쉽지만 이를 이루는 것은 어렵다고 생각합니다. 저희는
                 이 꿈을 이루기위해 오늘도 노력하고 있습니다.
               </p>
+              <a href='https://www.youtube.com/channel/UCLRcC3qP9gi5l1QUxBqHGjw'>
+                <h3>atc yoonhero</h3>
+              </a>
+              <a href='https://www.youtube.com/channel/UCNRuCnPvdvpbgCmUrspweEw/videos'>
+                <h3>닷냥 </h3>
+              </a>
+              <a href='https://www.youtube.com/channel/UCAaS7vALcXrjGlOFIY60uag'>
+                <h3>atc gu</h3>
+              </a>
             </div>
           </People>
         </AboutUsContainer>
