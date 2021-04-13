@@ -287,6 +287,7 @@ export default function Home() {
     {
       name: "AI 자율주행차",
       def: "python으로 개발중인 AI 자율주행자동차입니다.",
+      url: "https://github.com/yoonhero/OurAICar",
       imgUrl: "./aicar.jpeg",
     },
   ];
