@@ -374,7 +374,7 @@ export default function Home() {
           <Title>About Us</Title>
 
           <People>
-            <img src='./solvit.png' alt='' />
+            <img src='./solvit.png' alt='no' />
             <div>
               <h1>저희는 솔빛중학교 어코딩투동아리입니다.</h1>
               <p>
