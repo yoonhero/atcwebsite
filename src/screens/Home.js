@@ -360,15 +360,15 @@ export default function Home() {
         <OurWorksContainer className='section3'>
           <Title>Works</Title>
           <OurWorksGrid>
-            {works.map((work) => (
-              <OurWork onClick={() => setSelectedWork(work)}>
-                <img src={work?.imgUrl} alt='' />
+            { works.map((work) => (
+              <OurWork onClick={ () => setSelectedWork(work) }>
+                <img src={ work?.imgUrl } alt='' />
                 <div>
-                  <h1>{work?.name}</h1>
-                  <p>{work?.def}</p>
+                  <h1>{ work?.name }</h1>
+                  <p>{ work?.def }</p>
                 </div>
               </OurWork>
-            ))}
+            )) }
           </OurWorksGrid>
         </OurWorksContainer>
         <AboutUsContainer className='section4'>
@@ -397,24 +397,24 @@ export default function Home() {
         </AboutUsContainer>
       </Main>
       <Modal
-        isOpen={modalIsOpen}
-        onRequestClose={() => setIsOpen(false)}
-        style={customStyles}
+        isOpen={ modalIsOpen }
+        onRequestClose={ () => setIsOpen(false) }
+        style={ customStyles }
         contentLabel='작품'>
         <OurWorkModal>
-          <a href={selectedWork?.url}>
+          <a href={ selectedWork?.url }>
             <div>
-              <img src={selectedWork?.imgUrl} alt='' />
+              <img src={ selectedWork?.imgUrl } alt='' />
             </div>
           </a>
 
           <div>
-            <h1>{selectedWork?.name}</h1>
-            <p>{selectedWork?.def}</p>
+            <h1>{ selectedWork?.name }</h1>
+            <p>{ selectedWork?.def }</p>
           </div>
         </OurWorkModal>
-        <CloseButton onClick={() => setIsOpen(false)}>
-          <FontAwesomeIcon icon={faTimes} />
+        <CloseButton onClick={ () => setIsOpen(false) }>
+          <FontAwesomeIcon icon={ faTimes } />
         </CloseButton>
       </Modal>
     </>
