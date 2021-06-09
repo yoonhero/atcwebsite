@@ -290,6 +290,12 @@ export default function Home() {
       url: "https://github.com/yoonhero/OurAICar",
       imgUrl: "./aicar.jpeg",
     },
+    {
+      name: "공부타이머",
+      def: "HTML CSS JS 를 사용한 공부를 도와줄 수 있는 타이머입니다..",
+      url: "https://time-timer.netlify.app/",
+      imgUrl: "https://www.urbanbrush.net/web/wp-content/uploads/edd/2021/02/urbanbrush-20210203212519588818.jpg",
+    },
   ];
   useEffect(() => {
     if (selectedWork.length !== 0) {
