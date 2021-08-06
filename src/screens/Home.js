@@ -322,7 +322,7 @@ export default function Home() {
     },
     {
       name: "nayeon3041",
-      def: "Github Profile of Gugo",
+      def: "Github Profile of Nayeon",
       url: "https://github.com/nayeon3041",
       imgUrl: "https://avatars.githubusercontent.com/u/85272388?v=4",
     },
