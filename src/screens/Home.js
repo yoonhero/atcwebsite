@@ -296,6 +296,18 @@ export default function Home() {
       url: "https://time-timer.netlify.app/",
       imgUrl: "https://www.urbanbrush.net/web/wp-content/uploads/edd/2021/02/urbanbrush-20210203212519588818.jpg",
     },
+    {
+      name: "오감자 채팅앱",
+      def: "카톡을 뛰어넘을 대작입니다 :)",
+      url: "https://feelchat.netlify.app",
+      imgUrl: "https://i.ytimg.com/vi/Ombu29i04Xo/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBoQ85cpnLr8BXxcFZFO3SxXVB_iw",
+    },
+    {
+      name: "오감자 페이",
+      def: "도지코인처럼 장난스럽게 만드는것이 시작되었지만 끝은 창대할 것입니다. :)",
+      url: "https://ohpotatocoin.netlify.app",
+      imgUrl: "https://user-images.githubusercontent.com/57530375/128455549-006ead4b-f9b5-47fc-979a-547bf0d96c36.png",
+    },
   ];
   useEffect(() => {
     if (selectedWork.length !== 0) {
