@@ -308,6 +308,25 @@ export default function Home() {
       url: "https://ohpotatocoin.netlify.app",
       imgUrl: "https://user-images.githubusercontent.com/57530375/128455549-006ead4b-f9b5-47fc-979a-547bf0d96c36.png",
     },
+    {
+      name: "Yoonhero 윤히어로",
+      def: "Github Profile of Yoonhero",
+      url: "https://github.com/yoonhero",
+      imgUrl: "https://avatars.githubusercontent.com/u/57530375?v=4",
+    },
+        {
+      name: "Gugo 구고",
+      def: "Github Profile of Gugo",
+      url: "https://github.com/Gugo-le",
+      imgUrl: "https://avatars.githubusercontent.com/u/85179784?v=4",
+    },
+    {
+      name: "nayeon3041",
+      def: "Github Profile of Gugo",
+      url: "https://github.com/nayeon3041",
+      imgUrl: "https://avatars.githubusercontent.com/u/85272388?v=4",
+    },
+    
   ];
   useEffect(() => {
     if (selectedWork.length !== 0) {
