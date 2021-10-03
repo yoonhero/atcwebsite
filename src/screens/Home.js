@@ -314,18 +314,18 @@ export default function Home() {
       url: "https://github.com/yoonhero",
       imgUrl: "https://avatars.githubusercontent.com/u/57530375?v=4",
     },
-        {
-      name: "Gugo 구고",
-      def: "Github Profile of Gugo",
-      url: "https://github.com/Gugo-le",
-      imgUrl: "https://avatars.githubusercontent.com/u/85179784?v=4",
-    },
-    {
-      name: "nayeon3041",
-      def: "Github Profile of Nayeon",
-      url: "https://github.com/nayeon3041",
-      imgUrl: "https://avatars.githubusercontent.com/u/85272388?v=4",
-    },
+//         {
+//       name: "Gugo 구고",
+//       def: "Github Profile of Gugo",
+//       url: "https://github.com/Gugo-le",
+//       imgUrl: "https://avatars.githubusercontent.com/u/85179784?v=4",
+//     },
+//     {
+//       name: "nayeon3041",
+//       def: "Github Profile of Nayeon",
+//       url: "https://github.com/nayeon3041",
+//       imgUrl: "https://avatars.githubusercontent.com/u/85272388?v=4",
+//     },
     
   ];
   useEffect(() => {
