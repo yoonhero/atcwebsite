@@ -421,14 +421,14 @@ export default function Home() {
                 이 꿈을 이루기위해 오늘도 노력하고 있습니다.
               </p>
               <a href='https://www.youtube.com/channel/UCLRcC3qP9gi5l1QUxBqHGjw'>
-                <h3>atc yoonhero</h3>
+                <h3>Yoonhero 윤히어로</h3>
               </a>
               <a href='https://www.youtube.com/channel/UCNRuCnPvdvpbgCmUrspweEw/videos'>
                 <h3>닷냥 </h3>
               </a>
-              <a href='https://www.youtube.com/channel/UCAaS7vALcXrjGlOFIY60uag'>
-                <h3>atc gu</h3>
-              </a>
+//               <a href='https://www.youtube.com/channel/UCAaS7vALcXrjGlOFIY60uag'>
+//                 <h3>atc gu</h3>
+//               </a>
             </div>
           </People>
         </AboutUsContainer>
